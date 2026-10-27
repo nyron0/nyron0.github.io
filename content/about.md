@@ -4,4 +4,9 @@ draft = false
 title = 'About'
 +++
 
+
 # I like making *games*
+
+https://github.com/nyron0
+
+contact: nyronmail@gmail.com

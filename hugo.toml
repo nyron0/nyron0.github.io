@@ -38,6 +38,12 @@ theme = 'PaperMod'
   weight = 80
 
 [[menu.main]]
+  identifier = 'resource'
+  name = 'Resource'
+  url = '/resource/'
+  weight = 85
+
+[[menu.main]]
   identifier = 'list'
   name = 'List'
   url = '/list/'

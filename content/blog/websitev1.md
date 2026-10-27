@@ -92,7 +92,6 @@ theme = 'PaperMod'
   weight = 100
 ```
 
-The two fixes from your version are `buttons` (plural) and the title without the leftover "Your".
 
 ## 6. Add the favicon
 
@@ -207,9 +206,3 @@ git config alias.publish '!f() { git add . && git commit -m "${1:-Update site}" 
 2. Run `git status` to see what will go out.
 3. Publish with `git publish "what you changed"`.
 
-## Problems we hit and how they were fixed
-
-- **Install Hugo step failed:** `mkdir` needed `-p` (included in the workflow above).
-- **Config warning:** `languageCode` was renamed to `locale`.
-- **Button not showing:** `button` needed to be `buttons`.
-- **Favicon:** the config must use `/favicon.ico` and the files must live in `static/`.
