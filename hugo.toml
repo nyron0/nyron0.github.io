@@ -6,13 +6,18 @@ theme = 'PaperMod'
 [params]
   defaultTheme = 'auto'
 
-  [params.profileMode]
-    enabled = true
-    title = 'Hi, I’m Your nyron0'
-    subtitle = 'Developer. I build things and write about them.'
   [params.assets]
     favicon = '/favicon.ico'
     apple_touch_icon = '/apple-touch-icon.png'
+
+  [params.profileMode]
+    enabled = true
+    title = 'Hi, I’m nyron0'
+    subtitle = 'Developer. I build things and write about them.'
+  
+    [[params.profileMode.buttons]]
+      name = 'Coding Math - 30 days'
+      url = '/codingmathseries/'
 
 [[menu.main]]
   identifier = 'projects'
@@ -24,8 +29,13 @@ theme = 'PaperMod'
   identifier = 'about'
   name = 'About'
   url = '/about/'
-  weight = 20
+  weight = 100
 
+[[menu.main]]
+  identifier = 'blog'
+  name = 'Blog'
+  url = '/blog/'
+  weight = 80
 
 
 [[menu.main]]
