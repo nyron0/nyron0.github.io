@@ -10,7 +10,9 @@ theme = 'PaperMod'
     enabled = true
     title = 'Hi, I’m Your nyron0'
     subtitle = 'Developer. I build things and write about them.'
-
+  [params.assets]
+    favicon = '/favicon.ico'
+    apple_touch_icon = '/apple-touch-icon.png'
 
 [[menu.main]]
   identifier = 'projects'
