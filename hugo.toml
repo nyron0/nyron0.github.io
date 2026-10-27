@@ -11,13 +11,6 @@ theme = 'PaperMod'
     title = 'Hi, I’m Your nyron0'
     subtitle = 'Developer. I build things and write about them.'
 
-    [[params.profileMode.buttons]]
-      name = 'Projects'
-      url = '/projects/'
-
-    [[params.profileMode.buttons]]
-      name = 'About'
-      url = '/about/'
 
 [[menu.main]]
   identifier = 'projects'
@@ -30,3 +23,13 @@ theme = 'PaperMod'
   name = 'About'
   url = '/about/'
   weight = 20
+
+
+
+[[menu.main]]
+  identifier = 'cheatsheet'
+  name = 'Cheatsheet'
+  url = '/cheatsheet/'
+  weight = 30
+
+
